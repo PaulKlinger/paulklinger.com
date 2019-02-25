@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon"
+          href="favicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+
+    <title>Paul Klinger – Projects</title>
+</head>
+<body>
+<div class="container">
+    <div id="heading">
+        <h1>Paul Klinger – Projects</h1>
+        <p class="lead">
+            This is a list of some of my personal projects over the past years. They include pure software projects (in Python, Javascript, and Java),
+            and recently also hardware projects, which combine CAD design, 3D printing, PCB design, and embedded programming.
+            All projects are open source, with the code and design files available on <a href="https://github.com/PaulKlinger">my GitHub</a>.
+        </p>
+    </div>
+
+    <div class="project-type">
+        <h2>Hardware Projects</h2>
+        <div class="project-grid">
+            <div class="project">
+                <h3>Satellite Tracker </h3>
+                <iframe width="500" height="300" src="https://www.youtube.com/embed/Xof4bjcwHAY?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+                <div class="project-description">
+                    <p><a href="https://github.com/PaulKlinger/satellite_tracker" class="badge badge-secondary">GitHub</a>
+                    Shows all the satellites (and space junk) currently flying over a 300km radius disk on the ground. Uses data from <a href="https://space-track.org">space-track.org</a>.
+                    Raspberry Pi, custom PCBs for the LEDS (WS2812B) and connections, 3D-printed case. Software written in Python.
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <h3>TinyPC</h3><iframe width="500" height="300" src="https://www.youtube.com/embed/rgKiFqHrE0A?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+                <div class="project-description">
+                    <p><a href="https://github.com/PaulKlinger/tinypc" class="badge badge-secondary">GitHub</a> A miniature gaming PC that runs 5 games/application.
+                    3D printed case, RGB illumination (WS2812B LED and fiberoptic), ATtiny1614 MCU, SSD1306 128x64px OLED, 5-way switch as joystick. Software written in C.
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Compact Universal Electronic Dice</h3><iframe width="500" height="300" src="https://www.youtube.com/embed/G88BLo7Vowo?rel=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+                <div class="project-description">
+                    <p><a href="https://github.com/PaulKlinger/ndice" class="badge badge-secondary">GitHub</a> Miniature electronic dice (2-63 sided).
+                    Custom PCB, 3D printed case, ATtiny1614 MCU, single coin cell for power.
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <h3>3D printed gravitational waves</h3>
+                <img src="img/all.png" height="300">
+                <div class="project-description">
+                    <p><a href="https://www.thingiverse.com/thing:2886889" class="badge badge-secondary">Thingiverse</a>
+                        3D representations of gravitational waves from LIGO data. Created using a Python script to calculate shape of the horizontal slices and a custom Fusion 360 plugin to assemble them into a 3d model.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-type">
+        <h2>Software projects</h2>
+        <div class="project-grid">
+            <div class="project">
+                <h3>Sprog - Backend</h3>
+                <a href="https://almoturg.com/sprog/">
+                    <img src="img/sprog_app_icon.png" height="200">
+                </a>
+                <div class="project-description">
+                    <p><a href="https://github.com/PaulKlinger/sprog-backend" class="badge badge-secondary">GitHub</a>
+                    Creates pdf collections (using LaTeX) and RSS feeds of poems by Reddit user <a href="https://www.reddit.com/user/poem_for_your_sprog">/u/Poem_for_your_sprog</a>.
+                        Also provides backend services for the Sprog Android app. Written in Python + LaTeX, runs on Amazon AWS.</p>
+
+                    <p>Available at <a href="https://almoturg.com/sprog/">almoturg.com/sprog/</a>.</p>
+                </div>
+
+            </div>
+            <div class="project">
+                <h3>Sprog - Android App</h3>
+                <a href="http://play.google.com/store/apps/details?id=com.almoturg.sprog">
+                    <img src="img/sprog_app_gplay.png"
+                         alt="Get it on Google Play!" height="200px" />
+                </a>
+                <div class="project-description">
+
+                    <p><a href="https://github.com/PaulKlinger/sprog-app" class="badge badge-secondary">GitHub</a>
+                    Android App to browse, search, and filter poems by Reddit user <a href="https://www.reddit.com/user/poem_for_your_sprog">/u/Poem_for_your_sprog</a>.
+                        Written in Java.</p>
+                    <p>Available <a href="http://play.google.com/store/apps/details?id=com.almoturg.sprog">on Google Play</a>.</p>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Bookstats</h3>
+                <a href="https://almoturg.com/bookstats"><img src="img/bookstats_logo.png" height="200"></a>
+                <div class="project-description">
+                    <p><a href="https://github.com/PaulKlinger/bookstats" class="badge badge-secondary">GitHub</a>
+                    Shows detailed statistics of a users reading habits using data exported from <a href="https://goodreads.com">Goodreads</a>.
+                        Uses React and Plotly.js for plots.</p>
+                    <p>
+                    Available at <a href="https://almoturg.com/bookstats/">almoturg.com/bookstats</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
