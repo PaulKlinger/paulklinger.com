@@ -1,0 +1,12 @@
+#link-icons {
+    padding-bottom:20px;
+}
+
+.link-icon {
+    padding: 10px;
+}
+
+.link-icon a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
