@@ -1,11 +1,3 @@
-body {
-    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .1);
-}
-
-html body {
-    background-color: #f3f3f3;
-}
-
 .project-grid {
     display: grid;
     grid-gap: 10px;
@@ -22,12 +14,4 @@ html body {
 
 .project-type {
     margin-top: 60px;
-}
-
-#heading {
-    padding-top: 40px;
-}
-
-.container {
-    padding-bottom: 60px;
 }
