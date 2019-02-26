@@ -11,24 +11,6 @@ html, body {
     background-color: #f3f3f3;
 }
 
-.project-grid {
-    display: grid;
-    grid-gap: 10px;
-    grid-auto-flow: row;
-    grid-auto-rows: minmax(100px, auto);
-    grid-template-columns: repeat(auto-fit, 500px);
-}
-
-.project {
-    width: 500px;
-    /*height: 500px;*/
-    margin-top: 40px;
-}
-
-.project-type {
-    margin-top: 60px;
-}
-
 #heading {
     padding-top: 40px;
 }
