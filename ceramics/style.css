@@ -235,7 +235,6 @@ footer :visited {
 
 .artist.entry_full .artist_non_work .entry_main {
   width: 50%;
-  height: auto;
   border-radius: 10px;
 }
 
@@ -332,7 +331,7 @@ footer :visited {
   bottom: 20px;
   left: calc(50% - 10px - 50px);
   opacity: 0;
-  background: rgba(120, 120, 120, 0.7);
+  background: rgba(217, 217, 217, 0.7);
   animation: swipe-hint 2s 3;
   animation-fill-mode: backwards;
 }
