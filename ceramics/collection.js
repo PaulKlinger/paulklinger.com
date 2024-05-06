@@ -162,8 +162,8 @@ const create_work_elem = (work, artist) => {
         </div>
         <div class="work_details">
           <p class="work_head">
-            <span class="work_title">${work.title}</span>
-            <span class="work_year">(${work.year})</span>
+            <span class="work_title">${work.title},</span>
+            <span class="work_year">${work.year}</span>
           </p>
           <p class="work_artist_name">${artist.name}</p>
           <p class="work_other">
@@ -265,7 +265,7 @@ const create_artist_elem = (artist, works) => {
   // their country of birth
   let artist_country_str;
   if (artist.residence !== artist.origin) {
-    artist_country_str = `${artist.origin} | ${artist.residence}`;
+    artist_country_str = `${artist.residence} | ${artist.origin}`;
   } else {
     artist_country_str = artist.origin;
   }
