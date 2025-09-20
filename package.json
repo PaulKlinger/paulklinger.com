@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "pnpm": "^10.17.0",
+    "wrangler": "^4.38.0"
+  }
+}
