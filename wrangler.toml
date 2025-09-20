@@ -1,4 +1,4 @@
 #:schema node_modules/wrangler/config-schema.json
-name = "paulklinger.com"
+name = "paulklinger"
 compatibility_date = "2024-09-25"
 assets = { directory = "./content" }
